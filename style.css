@@ -1,9 +1,3 @@
-/* afterglow -- shared styling for the landing page and the run page.
-
-   The page kind sits on <html> (.landing / .run), never on <body>: jb.js owns
-   the body classes .log, .done and .fail and replaces them wholesale, so a
-   page-kind class on <body> would not survive the first state change. */
-
 :root {
   --bg: #0b0d10;
   --panel: #0e1116;
